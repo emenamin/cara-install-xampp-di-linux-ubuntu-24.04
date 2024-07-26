@@ -17,9 +17,11 @@ Disclaimer: Di sini saya menggunakan XAMPP versi 8.x.x
 | cd | Change Directory | Berpindah dari satu direktori ke direktori lain |
 | chmod | Change Mode | Mengubah permission terkait file dan direktori |
 | ls | List | Menunjukkan nama-nama file dan direktori dalam direktori saat itu |
+| sudo | Super User Do | This command prefix allows a regular user to execute a command with the privileges of the root user. It's a security mechanism to prevent accidental damage by regular users |
 
 Kenapa ada 775? Apa maksudnya?
 This is a numerical representation of file permissions, broken down into three parts:
+
 First digit (7): Permissions for the file owner.
 - 4 represents read permission.
 - 2 represents write permission.
