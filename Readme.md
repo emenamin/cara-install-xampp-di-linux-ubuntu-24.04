@@ -1,7 +1,5 @@
 # Cara Install XAMPP di Linux Ubuntu 24.04
 
-Disclaimer: Di sini saya menggunakan XAMPP versi 8.x.x
-
 1. Download file XAMPP [di sini](https://www.apachefriends.org/download.html). Pilih XAMPP for Linux.
 2. Buka terminal di Ubuntu dengan perintah `Ctrl + Alt + T`.
 3. Masuk ke direktori di mana file instalasi XAMPP berada dengan command `cd Downloads`. Ingat ini case sensitive, jadi kapitalisasi ngaruh.
@@ -11,7 +9,24 @@ Disclaimer: Di sini saya menggunakan XAMPP versi 8.x.x
 7. Jalankan perintah `sudo ./xampp-linux-x64-5-5.37-0-installer.run`.
 8. Ikuti proses instalasi hingga selesai.
 
-## Command yang digunakan
+# Cara Membuka/Menjalankan XAMPP di Linux Ubuntu 24.04
+
+1. Buka terminal di Linux dengan perintah `Ctrl + Alt + T`.
+2. Jalankan perintah `ls` untuk menemukan file .run dari XAMPP. Contoh file saya di sini adalah `manager-linux-x64.run`.
+3. Jalankan perintah `sudo chmod 755 manager-linux-64.run`.
+4. Masukkan password.
+5. Jalankan perintah `sudo ./manager-linux-x64.run`.
+6. Selesai.
+
+# Cara Uninstall XAMPP di Linux Ubuntu 24.04
+
+1. Buka terminal di Linux dengan perintah `Ctrl + Alt + T`
+2. Jalankan perintah `sudo chmod +x/opt/lampp/uninstall`.
+3. Masukkan password.
+4. Jalankan perintah `sudo /opt/lampp/uninstall`.
+5. Lanjutkan proses uninstall hingga selesai.
+
+## Command yang Digunakan
 | Command | Arti | Fungsi |
 |---------|------|--------|
 | cd | Change Directory | Berpindah dari satu direktori ke direktori lain |
